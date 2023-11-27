@@ -15,6 +15,7 @@ const CustomInput = ({ label, ...props }) => {
           borderRadius={5}
           w='100%'
           border = {meta.touched && meta.error ? '1px solid #eb0f0f' : '1px solid #e2e8f0'}
+          backgroundColor='#FFFBF5'
         />
       </Box>
       <Text

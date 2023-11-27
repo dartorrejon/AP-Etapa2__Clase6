@@ -1,27 +1,29 @@
-#root{
-    display: grid;
-    height: 100dvh;
-    place-content: center;
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: auto;
     background-color: #FFFBF5;
-    
-      
+
+
 }
 
 @media screen and (max-width: 380px) {
-    #root{
-      height: auto;
-      width: 100dvw;
-     
-      
-    }
-  }
-  @media screen and (min-width:500px) and (max-width: 932px) {
-    #root{
-      height: auto;
-      width: 100dvw;
-     padding: 20px 0;
-      
-    }
-  }
+    #root {
+        height: auto;
+        width: 100dvw;
+        row-gap: 0;
 
-  
+
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 932px) {
+    #root {
+        height: auto;
+        width: 100dvw;
+        
+    }
+}
