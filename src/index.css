@@ -1,0 +1,27 @@
+#root{
+    display: grid;
+    height: 100dvh;
+    place-content: center;
+    background-color: #FFFBF5;
+    
+      
+}
+
+@media screen and (max-width: 380px) {
+    #root{
+      height: auto;
+      width: 100dvw;
+     
+      
+    }
+  }
+  @media screen and (min-width:500px) and (max-width: 932px) {
+    #root{
+      height: auto;
+      width: 100dvw;
+     padding: 20px 0;
+      
+    }
+  }
+
+  
